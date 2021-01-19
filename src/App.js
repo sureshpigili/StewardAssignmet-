@@ -279,7 +279,7 @@ class Main extends Component {
                 {this.state.switch_visible ? (
                   <div>
                     <Navbar.Text className="Nytimes" style={nytimes}>
-                      NYTimes
+                      Latest News
                     </Navbar.Text>
                     <div className="switcher">
                       <Switch
@@ -292,7 +292,7 @@ class Main extends Component {
                       />
                     </div>
                     <Navbar.Text className="guard " style={guardian}>
-                      Guardian
+                      Future News
                     </Navbar.Text>
                   </div>
                 ) : (
